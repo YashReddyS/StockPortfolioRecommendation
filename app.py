@@ -4,7 +4,6 @@ from flask import Flask, render_template, url_for, request
 import json
 import matplotlib
 import matplotlib.pyplot as plt
-import seaborn
 import yfinance as yf
 import numpy as np
 app = Flask(__name__)
